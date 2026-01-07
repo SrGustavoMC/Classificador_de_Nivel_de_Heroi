@@ -26,12 +26,28 @@ O sistema exibe uma mensagem interpolada com o saldo final e o nível atingido, 
 
 ---
 
+## 3️⃣ Escrevendo as Classes de um Jogo
+**Objetivo:** Implementação de conceitos de Orientação a Objetos (POO).
+
+O foco deste desafio é a criação de uma **Classe Genérica** que representa um herói de uma aventura, contendo propriedades como nome, idade e tipo (ex: Guerreiro, Mago, Monge, Ninja). A classe possui um método `atacar` que exibe mensagens personalizadas conforme a classe do herói:
+
+* **Mago:** "usou magia"
+* **Guerreiro:** "usou espada"
+* **Monge:** "usou artes marciais"
+* **Ninja:** "usou shuriken"
+
+**Saída Esperada:**
+O método dispara uma saída interpolada combinando o tipo do herói e seu ataque específico: *"o mago atacou usando magia"* ou *"o guerreiro atacou usando espada"*.
+
+---
+
 ## 🛠️ Tecnologias e Conceitos Utilizados
 
 - **Variáveis e Operadores:** Para armazenamento de dados e cálculos aritméticos.
-- **Estruturas de Decisão:** `if`, `else if`, `else` para validação das faixas de nível.
+- **Estruturas de Decisão:** `if`, `else if`, `else` ou `switch` para validação de regras.
 - **Laços de Repetição:** Para execução contínua ou testes de múltiplos casos.
-- **Funções:** Para modularização e reutilização do código (foco no desafio 2).
+- **Funções:** Para modularização e reutilização do código.
+- **Classes e Objetos:** Para modelagem de entidades e métodos (foco no desafio 3).
 - **Interpolação de Strings:** Para saídas de texto dinâmicas.
 
 ---
